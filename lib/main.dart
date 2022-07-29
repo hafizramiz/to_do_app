@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
     accentColor: Colors.teal,
   );
 
+  // diff with branches
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
