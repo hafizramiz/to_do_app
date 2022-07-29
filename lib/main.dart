@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
   //Theme information
   ThemeData orangeTheme = ThemeData(
     appBarTheme: AppBarTheme(color: Colors.orange),
-    accentColor: Colors.orange,
+    colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.orange),
   );
 
   ThemeData greenTheme = ThemeData(
     appBarTheme: AppBarTheme(color: Colors.teal),
-    accentColor: Colors.teal,
+    colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.teal),
   );
 
   // diff with branches
