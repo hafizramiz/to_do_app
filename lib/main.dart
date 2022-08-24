@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
     appBarTheme: AppBarTheme(color: Colors.teal),primarySwatch: Colors.teal
   );
 
-  // diff with branches
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
